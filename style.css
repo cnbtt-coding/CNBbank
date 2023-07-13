@@ -1,0 +1,82 @@
+/* Fontes */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Icones */
+
+    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body style */
+
+body {
+    background-image: linear-gradient(to right, #bbe7f5, rgb(252, 157, 173));
+}
+
+main .container {
+    max-width: 300px;
+    width: 100%;
+    margin: 110px auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 36px 18px;
+    box-shadow: 0px 0px 15px rgb(110, 110, 110);
+    background-color: rgba(255, 255, 255, 100%)
+}
+
+main .container h1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+main .container h2 {
+    color: rgb(56, 177, 0);
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+main .container input {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 265px;
+    margin: 16px auto;
+    padding-bottom: 8px;
+    background-color: transparent;
+    text-align: start;
+}
+
+main .container p {
+    display: none;
+    color: red;
+}
+
+main .container input:focus {
+    outline: none;
+}
+
+main .container .submit {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 12px;
+    background-color: #5fee9b;
+    border: 1px solid rgb(255, 200, 228);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+main .container .submit:hover {
+    scale: 1.02;
+}
